@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather Web APP</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="col-md-6 m-auto py-5">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control city-input"
+            placeholder="Enter a city for Weather ..."
+          />
+          <div class="input-group-append">
+            <button type="button" class="src-btn btn btn-danger">Search</button>
+          </div>
+        </div>
+      </form>
+      <div class="weather-status text-white text-center">
+        <img src="./images/cloudy.png" class="weather-img" />
+        <h1 class="cityName">Your City Name</h1>
+        <h3 class="temp"><span>00</span>&deg;C</h3>
+        <div class="row">
+          <div class="col-6">
+            <div class="humi humi-wind">
+              <img src="./images/humidity.png" alt="" />
+              <div class="humi-details">
+                <h4><span>00</span>%</h4>
+                <h4>Humidity</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="wind-speed humi-wind">
+              <img src="./images/wind.png" alt="" />
+              <div class="wind-details">
+                <h4><span>00</span> KM/h</h4>
+                <h4>Wind</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lead">
+          <h3>Status : <span>Will be updated</span></h3>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

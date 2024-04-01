@@ -1,0 +1,29 @@
+* {
+  color: #fff;
+}
+body {
+  background: #ace2e1;
+}
+
+.weather-status {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 0.5rem;
+  background: #008dda;
+}
+
+.weather-img {
+  width: 128px;
+}
+
+.humi-wind {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+.lead h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
