@@ -1,8 +1,8 @@
-# Fun With API
+# Web App Collection
 
-Welcome to the "Fun With API" repository! This repository contains a collection of web applications that serve various purposes. Below is a brief overview of each project along with explanations:
+Welcome to the "Web App Collection" repository! This repository contains a collection of web applications that serve various purposes. Below is a brief overview of each project along with explanations:
 
-## Project 1: Weather Web App
+## [Project 1: Weather Web App](https://junayedhasanlearning.github.io/fun-with-api/Weather/)
 
 The Weather Web App allows users to check the weather for a specific city. Users can input the city name and click the "Search" button to fetch and display weather information such as temperature, humidity, wind speed, and weather condition.
 
@@ -10,7 +10,7 @@ The Weather Web App allows users to check the weather for a specific city. Users
 - **CSS**: Defines the styling for the weather web application, including background colors, font styles, and layout adjustments.
 - **JavaScript**: Fetches weather data from the WeatherAPI using the provided API key. Updates the DOM elements with weather information based on user input.
 
-## Project 2: Random User Generator
+## [Project 2: Random User Generator](https://junayedhasanlearning.github.io/fun-with-api/Random_User/)
 
 The Random User Generator web application generates random user details based on the selected gender. Users can choose between male and female genders and click the "Generate" button to display randomly generated user information such as name, address, and email.
 
@@ -18,7 +18,7 @@ The Random User Generator web application generates random user details based on
 - **CSS**: Defines the styling for the random user generator web application, including font styles, button appearance, and container layout.
 - **JavaScript**: Fetches random user data from the Random User API based on the selected gender. Updates the DOM elements with randomly generated user information.
 
-## Project 3: Random Activity Generator
+## [Project 3: Random Activity Generator](https://junayedhasanlearning.github.io/fun-with-api/Random_Activity/)
 
 The Random Activity Generator suggests random activities for users who are bored and looking for something to do. Users can click the "Generate" button to receive a randomly generated activity suggestion.
 
